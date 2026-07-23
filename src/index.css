@@ -1,1 +1,41 @@
 @import "tailwindcss";
+
+.container{
+    width: 100%;
+    max-width: 1740px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+body {
+    margin: 0;
+}
+
+/* Swiper Pagination Dots Custom Styling */
+.trading-slider .swiper-pagination {
+  text-align: left !important;
+  padding-left: 10px;
+  bottom: 0px !important;
+}
+
+.trading-slider .swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #ffffff !important;
+  opacity: 0.4 !important;
+  border-radius: 50% !important;
+  transition: all 0.3s ease;
+  margin: 0 4px !important;
+}
+
+.trading-slider .swiper-pagination-bullet-active {
+  opacity: 1 !important;
+  background-color: #ffffff !important;
+  transform: scale(1.2);
+}
+
+
+
+
+

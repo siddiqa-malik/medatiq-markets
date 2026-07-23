@@ -1,0 +1,106 @@
+{
+  "weekly": [
+    {
+      "rank": 1,
+      "name": "CryptoLion",
+      "image": "https://randomuser.me/api/portraits/men/1.jpg",
+      "roi": "+23.7%",
+      "profit": "$4,740",
+      "volume": "$20,000",
+      "country": "USA",
+      "flag": "🇺🇸"
+    },
+    {
+      "rank": 2,
+      "name": "SatoshiStar",
+      "image": "https://randomuser.me/api/portraits/women/2.jpg",
+      "roi": "+19.4%",
+      "profit": "$3,880",
+      "volume": "$18,000",
+      "country": "UK",
+      "flag": "🇬🇧"
+    },
+    {
+      "rank": 3,
+      "name": "EagleTradeX",
+      "image": "https://randomuser.me/api/portraits/men/3.jpg",
+      "roi": "+17.2%",
+      "profit": "$3,440",
+      "volume": "$17,300",
+      "country": "Japan",
+      "flag": "🇯🇵"
+    },
+    {
+      "rank": 4,
+      "name": "AltcoinWhale",
+      "image": "https://randomuser.me/api/portraits/men/4.jpg",
+      "roi": "+14.1%",
+      "profit": "$2,620",
+      "volume": "$15,600",
+      "country": "UAE",
+      "flag": "🇦🇪"
+    },
+    {
+      "rank": 5,
+      "name": "BitHawk_92",
+      "image": "https://randomuser.me/api/portraits/women/5.jpg",
+      "roi": "+11.9%",
+      "profit": "$2,380",
+      "volume": "$13,800",
+      "country": "Canada",
+      "flag": "🇨🇦"
+    }
+  ],
+  "monthly": [
+    {
+      "rank": 1,
+      "name": "AlphaTrader",
+      "image": "https://randomuser.me/api/portraits/men/6.jpg",
+      "roi": "+91.4%",
+      "profit": "$19,100",
+      "volume": "$81,000",
+      "country": "Germany",
+      "flag": "🇩🇪"
+    },
+    {
+      "rank": 2,
+      "name": "MarketWolf",
+      "image": "https://randomuser.me/api/portraits/women/7.jpg",
+      "roi": "+84.8%",
+      "profit": "$17,800",
+      "volume": "$74,000",
+      "country": "France",
+      "flag": "🇫🇷"
+    },
+    {
+      "rank": 3,
+      "name": "ForexKing",
+      "image": "https://randomuser.me/api/portraits/men/8.jpg",
+      "roi": "+72.5%",
+      "profit": "$15,200",
+      "volume": "$69,300",
+      "country": "Australia",
+      "flag": "🇦🇺"
+    },
+    {
+      "rank": 4,
+      "name": "ProfitGuru",
+      "image": "https://randomuser.me/api/portraits/women/9.jpg",
+      "roi": "+64.3%",
+      "profit": "$12,900",
+      "volume": "$60,000",
+      "country": "Singapore",
+      "flag": "🇸🇬"
+    },
+    {
+      "rank": 5,
+      "name": "TradeMaster",
+      "image": "https://randomuser.me/api/portraits/men/10.jpg",
+      "roi": "+58.6%",
+      "profit": "$10,700",
+      "volume": "$54,000",
+      "country": "Pakistan",
+      "flag": "🇵🇰"
+    }
+  ]
+}

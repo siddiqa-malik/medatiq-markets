@@ -37,7 +37,7 @@ const Navbar= () => {
 
   return (
     <>
-      <header className={`fixed top-0 left-0 w-full h-24 md:h-30 backdrop-blur-md z-50 xl:px-20 border-b-2 border-[#001D30]/20  transition-all duration-300 ${isScrolled ? 'bg-blur-md shadow-lg' : 'bg-transparent'}`}>
+      <header className={` fixed top-0 left-0 w-full h-24 md:h-30 backdrop-blur-md z-50 xl:px-20 border-b-2 border-[#001D30]/10 lg:border-[#001D30]/20  transition-all duration-300 ${isScrolled ? 'bg-white' : 'bg-transparent'}`}>
         <div className="w-full max-full mx-auto h-full px-4 sm:px-5 lg:px-8 flex items-center justify-between gap-3">
           
           {/* Logo */}
