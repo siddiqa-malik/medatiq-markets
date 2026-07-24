@@ -10,6 +10,9 @@ import LiveMarketOverview from "./components/LiveMarketOverview"
 import WatchHowItWorks from "./components/WatchHowItWorks"
 import TestimonialSlider from "./components/TestimonialSlider"
 import TradingSection from "./components/TradingSection"
+import FAQSection from "./components/FAQSection"
+import AuthSection from "./components/AuthSection"
+import FooterSection from "./components/FooterSection"
 function App() {
   return (
     <div className="relative min-h-screen text-white">
@@ -29,6 +32,9 @@ function App() {
          <WatchHowItWorks/>
          <TestimonialSlider/>
          <TradingSection/>
+         <FAQSection/>
+         <AuthSection/>
+         <FooterSection/>
       </main>
 
     </div>

@@ -14,9 +14,9 @@ body {
 
 /* Swiper Pagination Dots Custom Styling */
 .trading-slider .swiper-pagination {
-  text-align: left !important;
-  padding-left: 10px;
-  bottom: 0px !important;
+  text-align: center !important;
+  padding-left: 0;
+  bottom: -35px !important;
 }
 
 .trading-slider .swiper-pagination-bullet {
@@ -38,4 +38,20 @@ body {
 
 
 
+
+.slick-list {
+  overflow: visible !important;
+}
+
+.slick-track {
+  display: flex !important;
+}
+
+.slick-slide {
+  height: inherit !important;
+}
+
+.slick-slide > div {
+  height: 100%;
+}
 
