@@ -1,35 +1,46 @@
+import coinIcon from "../coin-icon.png";
+import coinIcon1 from "../coin-icon1.png";
+import bitcoinIc from "../bitcoin-ic.png";
+import bitcoinIc1 from "../bitcoin-ic1.png";
+import chartstate1 from "../chart-state1.png"
+import chartstate2 from "../chart-state2.png"
+import chartstate3 from "../chart-state3.png"
+import chartstate4 from "../chart-state4.png"
+
+
+
 const marketData = [
   {
-    icon: "/path-to-gold-icon.png", // Apni gold icon ka path lagayein
+    icon: coinIcon,
     symbol: "XAU/USD",
     label: "Gold",
     price: "$56,623.54",
     change: "1.41%",
-    chart: "/path-to-gold-mini-chart.png" // Agar mini chart image hai, warna isay custom SVG se bhi badla ja sakta hai
+    chart: chartstate1
   },
   {
-    icon: "/path-to-silver-icon.png",
+    icon: coinIcon1,
     symbol: "XAG/USD",
     label: "Silver",
     price: "$4,267.90",
     change: "2.22%",
-    chart: "/path-to-silver-mini-chart.png"
+    chart: chartstate2
   },
   {
-    icon: "/path-to-platinum-icon.png",
+    icon: bitcoinIc,
     symbol: "XPT/USD",
     label: "Platinum",
     price: "$587.74",
     change: "0.82%",
-    chart: "/path-to-platinum-mini-chart.png"
+    chart: chartstate3
   },
   {
-    icon: "/path-to-usdt-icon.png",
+    icon: bitcoinIc1,
     symbol: "USDT",
     label: "Tether",
     price: "$0.9998",
     change: "0.03%",
-    chart: "/path-to-usdt-mini-chart.png"
+    chart: chartstate4
   }
 ];
 

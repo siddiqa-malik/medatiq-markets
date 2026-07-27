@@ -18,12 +18,12 @@ export function LiveMarketOverview() {
         {/* Currency Cards Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           {marketData.map((item, index) => (
-            <div key={index} className="bg-white text-gray-900 p-5 rounded-2xl shadow-sm flex flex-col justify-between min-h-[160px]">
+            <div key={index} className="bg-white text-gray-900 p-5 rounded-2xl shadow-sm flex flex-col justify-between min-h-[170px]">
               
               {/* Top Row: Icon, Symbol, Tag, and Arrow */}
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <img src={item.icon} alt={item.symbol} className="w-7 h-7 object-contain" />
+                  <img src={item.icon} alt={item.symbol} className="w-8 h-8 xl:w-10 xl:h-10 object-contain" />
                   <span className="font-semibold text-gray-800 text-sm">{item.symbol}</span>
                   <span className="text-[10px] bg-gray-800 text-white px-2 py-0.5 rounded font-medium opacity-80">
                     {item.label}
@@ -42,7 +42,7 @@ export function LiveMarketOverview() {
                   <div className="text-xs font-semibold text-emerald-600 mt-0.5">{item.change}</div>
                 </div>
                 {/* Sparkline / Mini Chart */}
-                <div className="w-20 h-10 flex items-center justify-end">
+                <div className="w-30 h-20 md:w-20 md:h-20 xl:w-30 xl:h-20 flex items-center justify-end">
                   <img src={item.chart} alt="trend" className="w-full h-full object-contain" />
                 </div>
               </div>

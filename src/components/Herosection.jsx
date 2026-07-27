@@ -1,11 +1,18 @@
 import { Search, SlidersHorizontal, ChevronDown } from "lucide-react";
-import {traders} from "../assets/Data/tradersData"
+import { useState, useEffect } from "react";
 
 
 export const Hero = () => {
-  
+  const [traders, setTraders] = useState([]);
 
-  
+  useEffect(() => {
+    fetch("/traders.json")
+      .then((res) => res.json())
+      .then((data) => {
+        setTraders(data.weekly.slice(0, 4));
+      })
+      .catch((err) => console.error("Error loading traders:", err));
+  }, []);
 
   return (
     <section style={
@@ -49,13 +56,12 @@ export const Hero = () => {
       <div className="flex items-center -space-x-7 isolation-auto">
         {traders.map((trader, index) => (
           <div
-            key={trader.id}
+            key={trader.rank}
             className="relative"
-            // z-index index ke hisab se set hoga takay right wala circle hamesha top par rahe
             style={{ zIndex: index + 1 }}
           >
             <img
-              src={trader.avatar}
+              src={trader.image}
               alt={trader.name}
               className="w-12 h-12 rounded-full border-[3px] border-white object-cover shadow-sm bg-gray-200"
             />

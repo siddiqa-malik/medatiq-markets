@@ -63,6 +63,7 @@ function TradingSection() {
       flex
       items-center
       py-16
+      lg:py-24
       overflow-hidden
       "
       style={{
@@ -85,15 +86,16 @@ function TradingSection() {
         mx-auto
         grid
         grid-cols-1
-        lg:grid-cols-1
-        gap-15
+        lg:grid-cols-[1.05fr_0.95fr]
+        gap-10
+        lg:gap-16
         "
       >
 
 
         {/* CONTENT */}
 
-        <div className="flex flex-col justify-center mt-30 text-white ml-5 sm:ml-0 space-y-6 lg:max-w-7xl">
+        <div className="flex flex-col justify-center mt-20 lg:mt-0 text-white ml-5 sm:ml-0 space-y-6 lg:max-w-2xl lg:pl-4">
 
           <h2 className="
           text-3xl
@@ -138,7 +140,7 @@ function TradingSection() {
 
         {/* SLIDER */}
 
-        <div className="w-full lg:w-[68%]  lg:ml-auto py-10 mb-15 lg:justify-self-end relative px-4 lg:px-8 overflow-hidden trading-slider">
+        <div className="w-full lg:w-full py-10 mb-15 lg:mb-0 lg:justify-self-end relative px-4 lg:px-0 overflow-hidden trading-slider">
 
 
           <style>
@@ -216,7 +218,7 @@ function TradingSection() {
 
 
               1024:{
-                slidesPerView:3,
+                slidesPerView:2.4,
                 spaceBetween:20
               }
 

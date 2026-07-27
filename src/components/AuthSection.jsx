@@ -2,11 +2,11 @@ import React from 'react';
 
 const AuthSection = () => {
   return (
-    <div className="min-h-screen container  flex items-center justify-center px-6 py-12 md:py-24">
-      <div className="container  grid grid-cols-1 md:grid-cols-2 gap-2 items-center">
+    <div className=" container  flex items-center justify-center px-6 mb-8 xl:py-24">
+      <div className="container  grid grid-cols-1 md:grid-cols-2 gap-2 items-center ">
         
         {/* Left Side: Login Card */}
-        <div className="bg-white p-8 rounded-2xl border border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.04)] max-w-md w-full mx-auto md:ml-auto">
+        <div className="bg-white p-8 rounded-2xl border mb-2 sm:mb-0 border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.04)] lg:max-w-sm xl:max-w-md w-full mx-auto md:ml-auto">
           {/* Tabs */}
           <div className="flex bg-gray-50 p-1.5 rounded-xl mb-6">
             <button className="w-1/2 py-2.5 text-sm font-medium text-gray-700 bg-white rounded-lg shadow-sm border border-gray-100 transition-all">
@@ -18,7 +18,7 @@ const AuthSection = () => {
           </div>
 
           {/* Form */}
-          <form onSubmit={(e) => e.preventDefault()} className="space-y-4">
+          <form onSubmit={(e) => e.preventDefault()} className="space-y-4 ">
             <div>
               <label className="block text-xs font-medium text-gray-500 mb-1.5">Email</label>
               <div className="relative">
