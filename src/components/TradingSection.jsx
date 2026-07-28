@@ -186,7 +186,7 @@ function TradingSection() {
 
             loop={true}
 
-            slidesPerView={1.8}
+            slidesPerView={1.2}
 
             autoplay={{
               delay:3000,
@@ -245,29 +245,19 @@ function TradingSection() {
                 <div
 
                 className={`
-                
-                trading-card
-                relative
-                group
-                aspect-[3/4]
-                max-h-[45vh]
-                rounded-[24px]
-                overflow-hidden
-                transition-all
-                duration-300
-                shadow-2xl
-                cursor-pointer
-                
-
-                ${
-                  activeIndex === index
-                  ?
-                  "border-2 border-white"
-                  :
-                  "border-2 border-transparent"
-                }
-
-                `}
+  trading-card
+  relative
+  group
+  w-full
+  h-[clamp(220px,45vh,420px)]
+  rounded-[24px]
+  overflow-hidden
+  transition-all
+  duration-300
+  shadow-2xl
+  cursor-pointer
+  ${activeIndex === index ? "border-2 border-white" : "border-2 border-transparent"}
+`}
 
                 >
 

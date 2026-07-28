@@ -9,15 +9,18 @@ export default function DownloadSection() {
       <div className="container flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16 lg:max-w-7xl lg:mx-auto">
         
         {/* Left Content */}
-        <div className="max-w-2xl text-center  sm:text-left space-y-8 lg:w-[55%] xl:w-[88%] g:pr-6 lg:self-start">
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-black leading-tight">
+        <div className="max-w-2xl text-center sm:text-left space-y-6 lg:space-y-8 lg:w-[48%] xl:w-[44%] lg:pr-6 xl:pr-10 lg:self-start">
+          <h1 className="text-3xl md:text-4xl lg:text-4xl xl:text-5xl font-semibold text-black leading-tight tracking-tight max-w-lg mx-auto sm:mx-0">
             Your Greatest Assets is your Earning Potential.
           </h1>
-          <p className="text-black/80 text-sm md:text-base  leading-relaxed">
-Access your trading account anytime, anywhere. Trade online seamlessly on web, mobile, and desktop platforms, ensuring flexibility and convenience for all traders.          </p>
-          <button className="bg-[#031b2e] hover:bg-[#062944] text-white/80 font-medium px-8 py-3 rounded-full hover:bg-opacity-90 transition-all text-sm">
-            Download now
-          </button>
+          <p className="text-black/80 text-sm md:text-base leading-7 max-w-xl mx-auto sm:mx-0">
+            Access your trading account anytime, anywhere. Trade online seamlessly on web, mobile, and desktop platforms, ensuring flexibility and convenience for all traders.
+          </p>
+          <div className="flex justify-center sm:justify-start">
+            <button className="bg-[#031b2e] hover:bg-[#062944] text-white/80 font-medium px-8 py-3 rounded-full hover:bg-opacity-90 transition-all text-sm">
+              Download now
+            </button>
+          </div>
         </div>
 
         {/* Right Download Cards */}
@@ -53,7 +56,7 @@ Access your trading account anytime, anywhere. Trade online seamlessly on web, m
                   <img src={mt5logo} alt="MT5" className="object-contain" />
                 </div>
                 <div>
-                  <div className="flex items-center gap-2 lg:gap-6">
+                  <div className="flex items-start  gap-2 lg:gap-6">
                     <span className="text-black text-lg lg:text-2xl">↓</span>
                     <h3 className="font-bold lg:font-semibold text-black text-[12px] md:text-base lg:text-lg">Get MT5 for Desktop</h3>
                   </div>
