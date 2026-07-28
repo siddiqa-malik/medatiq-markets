@@ -1,4 +1,5 @@
 import React from 'react';
+import mt5logo from "../assets/mt5logo.png"
 
 
 
@@ -27,7 +28,7 @@ Access your trading account anytime, anywhere. Trade online seamlessly on web, m
             <div className="w-full h-full bg-amber-50 xl:gap-30 gap-2 md:gap-80 lg:gap-8 rounded-[calc(1rem-1px)] p-4 lg:px-6 lg:py-5 flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center border border-gray-100 p-2">
-                  <img src="/mt5-logo.png" alt="MT5" className="object-contain" />
+                  <img src={mt5logo} alt="MT5" className="object-contain" />
                 </div>
                 <div>
                   <div className="flex items-center gap-2 lg:gap-6">
@@ -49,7 +50,7 @@ Access your trading account anytime, anywhere. Trade online seamlessly on web, m
             <div className="w-full h-full bg-amber-50 xl:gap-65 gap-2 md:gap-90 lg:gap-14 rounded-[calc(1rem-2px)] p-4 lg:px-6 lg:py-6 flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 lg:w-16 lg:h-16 bg-white rounded-xl flex items-center justify-center border border-gray-100 p-2">
-                  <img src="/mt5-logo.png" alt="MT5" className="object-contain" />
+                  <img src={mt5logo} alt="MT5" className="object-contain" />
                 </div>
                 <div>
                   <div className="flex items-center gap-2 lg:gap-6">
@@ -71,7 +72,7 @@ Access your trading account anytime, anywhere. Trade online seamlessly on web, m
             <div className="w-full h-full bg-amber-50 xl:gap-30 gap-2 md:gap-80 lg:gap-8 rounded-[calc(1rem-1px)] p-4 lg:px-6 lg:py-5 flex items-center justify-between">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 bg-white rounded-xl flex items-center justify-center border border-gray-100 p-2">
-                  <img src="/mt5-logo.png" alt="MT5" className="object-contain" />
+                  <img src={mt5logo} alt="MT5" className="object-contain" />
                 </div>
                 <div>
                   <div className="flex items-center gap-2 lg:gap-6">
