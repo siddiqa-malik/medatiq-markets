@@ -8,10 +8,10 @@ const StatisticsSection = () => {
 
   return (
 
-    <section className="px-4 md:px-8 py-8 lg:py-16">
+    <section className="px-4 mb-12 sm:mb-0 md:px-8 py-2 lg:py-16">
 
 
-<div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8 items-center">
+<div className="container text-center sm:text-left mx-auto grid grid-cols-1 lg:grid-cols-2 gap-5 lg:gap-8 items-center">
 
         {/* LEFT CONTENT */}
 
@@ -22,7 +22,7 @@ const StatisticsSection = () => {
             Real-Time Platform Statistics
           </h2>
 
-          <p className="mt-6 text-black/80 leading-8 max-w-lg lg:max-w-2xl">
+          <p className="mt-6 text-black/80  text-sm md:text-base max-w-lg lg:max-w-2xl">
             Monitor total trade volume and executions in the last 24 hours.
             Get a real-time view of live market activity on the platform.
             All statistics update dynamically and can easily be connected

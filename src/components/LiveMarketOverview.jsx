@@ -5,12 +5,12 @@ import {marketData} from "../assets/Data/marketData"
 
 export function LiveMarketOverview() {
   return (
-    <section className="bg-[#011625] text-white py-16 px-4 font-sans">
+    <section className="bg-[#011625] text-white mb-8  py-16 px-4 font-sans">
       <div className="container mx-auto">
         {/* Header Content */}
-        <div className="mb-10">
+        <div className="mb-10 text-center sm:text-left">
           <h2 className="text-2xl lg:text-3xl font-semibold mb-3">Live Market Overview</h2>
-          <p className="text-gray-400 text-sm max-w-4xl leading-relaxed">
+          <p className="text-gray-400 text-sm md:text-base max-w-4xl leading-relaxed">
             Maximize your trading potential with our advanced tools and expert insights. Achieve your goals with measurable performance and intuitive interfaces.
           </p>
         </div>

@@ -31,13 +31,13 @@ const features = [
 
  function FeaturesSection() {
   return (
-    <section className="container py-16 px-4 mx-auto font-sans lg:py-14 lg:px-6">
+    <section className="container py-4 px-4 mx-auto font-sans lg:py-14 lg:px-6">
       {/* Header */}
-      <div className="text-center max-w-3xl mx-auto mb-12 lg:mb-16">
+      <div className="text-center sm:text-left max-w-3xl mx-auto mb-12 lg:mb-16">
         <h2 className="text-3xl lg:text-5xl font-semibold text-black mb-4">
           Key Features of MEDATIQ Markets
         </h2>
-        <p className="text-black/80 text-sm lg:text-md ">
+        <p className="text-black/80 text-sm  md:text-base lg:leading-8 ">
           Access professional analytics and trading tools within a secure, transparent environment with ultra-low latency execution and global access to forex, gold, silver, and more, anytime, anywhere.
         </p>
       </div>

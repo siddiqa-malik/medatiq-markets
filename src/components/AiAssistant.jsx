@@ -15,12 +15,12 @@ function AIAssistantSection() {
         </div>
 
         {/* Right Side: Content Column */}
-        <div className="flex flex-col space-y-6 order-1 lg:order-2 max-w-xl mx-auto lg:mx-0">
+        <div className="flex flex-col space-y-6 order-1 lg:order-2 text-center sm:text-left max-w-xl mx-auto lg:mx-0">
           <h2 className="text-3xl lg:text-4xl font-semibold text-gray-900 leading-tight">
             Meet Your 24/7 Intelligent Trading Assistant
           </h2>
           
-          <p className="text-gray-600 text-sm leading-relaxed">
+          <p className="text-gray-600 text-sm md:text-base leading-relaxed">
             Never trade alone. Ask anything, anytime, your intelligent assistant delivers instant answers, live market updates, and seamless trading support across forex, gold, and silver.
           </p>
           

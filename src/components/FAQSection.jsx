@@ -92,7 +92,7 @@ const FAQSection = () => {
           <h3 className="text-white font-semibold text-lg md:text-xl mb-2">
             Still have questions?
           </h3>
-          <p className="text-gray-400 text-sm xl:text-lg mb-6">
+          <p className="text-gray-400 text-sm md:text-base mb-6">
             Can't find the answer you're looking for? Please chat to our
             friendly team.
           </p>

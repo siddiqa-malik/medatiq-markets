@@ -95,6 +95,7 @@ const TestimonialSlider = () => {
       md:w-12
       md:h-12
       bg-white
+      text-black
       rounded-full
       border
       border-gray-200
@@ -125,6 +126,7 @@ const TestimonialSlider = () => {
       md:w-12
       md:h-12
       bg-white
+      text-black
       rounded-full
       border
       border-gray-200
@@ -143,7 +145,9 @@ const TestimonialSlider = () => {
     <section
       className="
       w-full
-      
+      mb-6
+      sm:mb-0
+
       py-10
       md:py-16
       overflow-x-hidden
@@ -176,6 +180,7 @@ const TestimonialSlider = () => {
           mt-4
           text-gray-500
           text-sm
+          md:text-base
           md:text-base
           max-w-3xl
           mx-auto

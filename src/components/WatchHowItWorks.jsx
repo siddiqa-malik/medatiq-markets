@@ -4,14 +4,14 @@ import tradingimg from "../assets/tradingimg.webp"
 
  function WatchHowItWorks() {
   return (
-    <section className="container py-7 px-4 font-sans">
-      <div className="mx-auto text-center">
+    <section className="container py-7 mb-4 px-4 font-sans">
+      <div className=" text-center">
         
         {/* Header Text */}
         <h2 className="text-3xl font-bold text-gray-900  mb-4">
           New to Trading? Watch How It Works
         </h2>
-        <p className="text-gray-500 text-sm leading-relaxed max-w-2xl mx-auto mb-5 sm:mb-12">
+        <p className="text-gray-500 text-sm  md:text-base leading-relaxed max-w-2xl mx-auto mb-5 sm:mb-12">
           Our step-by-step guide walks you through setting up your account, navigating the platform, and placing your first trade across crypto, gold, silver, or forex.
         </p>
 

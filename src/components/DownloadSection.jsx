@@ -4,15 +4,15 @@ import React from 'react';
 
 export default function DownloadSection() {
   return (
-    <div className="container flex items-center justify-center p-6 mb-6 lg:mt-14 md:py-16 lg:py-20 font-sans">
+    <div className="container flex items-center justify-center  p-6 mb-6 lg:mt-14 md:py-16 lg:py-20 font-sans">
       <div className="container flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16 lg:max-w-7xl lg:mx-auto">
         
         {/* Left Content */}
-        <div className="max-w-2xl space-y-8 lg:w-[55%] xl:w-[88%] g:pr-6 lg:self-start">
+        <div className="max-w-2xl text-center  sm:text-left space-y-8 lg:w-[55%] xl:w-[88%] g:pr-6 lg:self-start">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-semibold text-black leading-tight">
             Your Greatest Assets is your Earning Potential.
           </h1>
-          <p className="text-black/80 text-sm md:text-base lg:text-md leading-relaxed">
+          <p className="text-black/80 text-sm md:text-base  leading-relaxed">
 Access your trading account anytime, anywhere. Trade online seamlessly on web, mobile, and desktop platforms, ensuring flexibility and convenience for all traders.          </p>
           <button className="bg-[#00130d] text-white font-medium px-8 py-3 rounded-full hover:bg-opacity-90 transition-all text-sm">
             Download now

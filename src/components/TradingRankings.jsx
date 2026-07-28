@@ -15,7 +15,7 @@ const TradingRankings = () => {
 
   if (!leaderboard) {
     return (
-      <section className="bg-[#021d30] min-h-screen flex items-center justify-center text-white">
+      <section className="bg-[#021d30] min-h-screen flex items-center  justify-center text-white">
         Loading...
       </section>
     );
@@ -24,8 +24,8 @@ const TradingRankings = () => {
   const currentTraders = leaderboard[activeTab];
 
   return (
-    <section className="bg-[#021d30] text-white py-16 px-4">
-      <div className="max-w-7xl mx-auto">
+    <section className="bg-[#021d30] text-white mb-10 sm:mb-0 py-16 px-4">
+      <div className="container mx-auto">
 
         {/* Heading */}
         <div className="text-center">

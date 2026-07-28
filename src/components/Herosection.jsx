@@ -17,7 +17,7 @@ export const Hero = () => {
   return (
     <section style={
       {}
-    } className=" relative w-full h-auto pt-30 flex mt-5 md:mt-30 items-start lg:items-center overflow-hidden mb-35">
+    } className=" relative w-full h-auto pt-30 flex mt-5 md:mt-30 items-start lg:items-center overflow-hidden mb-15 sm:mb-35">
       
       {/* Hero background gradient */}
       
@@ -70,7 +70,7 @@ export const Hero = () => {
       </div>
 
       {/* Right Side Text */}
-      <div className="flex items-center text-lg font-medium tracking-tight">
+      <div className="flex items-center text-md sm:text-lg font-medium tracking-tight">
         <span className="text-[#F1A638] font-bold mr-1.5">5M+</span>
         <span className="text-[#1A1A1A]">Trusted Traders</span>
       </div>

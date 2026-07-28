@@ -62,8 +62,7 @@ function TradingSection() {
       bg-center
       flex
       items-center
-      py-16
-      lg:py-24
+      py-2
       overflow-hidden
       "
       style={{
@@ -86,16 +85,15 @@ function TradingSection() {
         mx-auto
         grid
         grid-cols-1
-        lg:grid-cols-[1.05fr_0.95fr]
-        gap-10
-        lg:gap-16
+        lg:grid-cols-1
+        gap-15
         "
       >
 
 
         {/* CONTENT */}
 
-        <div className="flex flex-col justify-center mt-20 lg:mt-0 text-white ml-5 sm:ml-0 space-y-6 lg:max-w-2xl lg:pl-4">
+        <div className="flex flex-col justify-center items-center sm:items-start text-center sm:text-left mt-30 text-white sm:ml-5 sm:ml-0 space-y-6 lg:max-w-7xl">
 
           <h2 className="
           text-3xl
@@ -122,8 +120,13 @@ function TradingSection() {
           bg-white
           text-black
           w-fit
-          px-18
-          py-4
+          xl:px-18
+          px-9
+
+          xl:py-4
+          sm:py-4
+          py-3
+
           rounded-full
           font-semibold
           "
@@ -140,7 +143,7 @@ function TradingSection() {
 
         {/* SLIDER */}
 
-        <div className="w-full lg:w-full py-10 mb-15 lg:mb-0 lg:justify-self-end relative px-4 lg:px-0 overflow-hidden trading-slider">
+        <div className="w-full lg:w-[68%] xl:w-[77%] lg:ml-auto py-10 mb-15 lg:justify-self-end relative px-4 xl:px-10 overflow-hidden trading-slider">
 
 
           <style>
@@ -207,19 +210,19 @@ function TradingSection() {
 
               480:{
                 slidesPerView:2,
-                spaceBetween:16
+                spaceBetween:12
               },
 
 
               768:{
                 slidesPerView:2.5,
-                spaceBetween:20
+                spaceBetween:14
               },
 
 
               1024:{
-                slidesPerView:2.4,
-                spaceBetween:20
+                slidesPerView:3,
+                spaceBetween:2
               }
 
 

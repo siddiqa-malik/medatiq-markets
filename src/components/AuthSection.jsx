@@ -3,10 +3,10 @@ import React from 'react';
 const AuthSection = () => {
   return (
     <div className=" container  flex items-center justify-center px-6 mb-8 xl:py-24">
-      <div className="container  grid grid-cols-1 md:grid-cols-2 gap-2 items-center ">
+      <div className="container  grid grid-cols-1 md:grid-cols-2 gap-5 sm:gap-2  items-center ">
         
         {/* Left Side: Login Card */}
-        <div className="bg-white p-8 rounded-2xl border mb-2 sm:mb-0 border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.04)] lg:max-w-sm xl:max-w-md w-full mx-auto md:ml-auto">
+        <div className="bg-white order-2 lg:order-1 p-8 rounded-2xl border mb-2 sm:mb-0 border-gray-100 shadow-[0_10px_30px_rgba(0,0,0,0.04)] lg:max-w-sm xl:max-w-md w-full mx-auto md:ml-auto">
           {/* Tabs */}
           <div className="flex bg-gray-50 p-1.5 rounded-xl mb-6">
             <button className="w-1/2 py-2.5 text-sm font-medium text-gray-700 bg-white rounded-lg shadow-sm border border-gray-100 transition-all">
@@ -82,11 +82,11 @@ const AuthSection = () => {
         </div>
 
         {/* Right Side: Text Content */}
-        <div className=" md:mr-auto">
+        <div className=" md:mr-auto flex flex-col items-center sm:items-start order-1 lg:order-2 text-center sm:text-start ">
           <h1 className="text-3xl md:text-[40px] font-semibold text-gray-900 leading-[1.2] tracking-tight mb-4">
             Create your free account today and start trading with confidence.
           </h1>
-          <p className="text-gray-800 text-md leading-relaxed mb-8">
+          <p className="text-gray-800 text-sm md:text-base leading-relaxed mb-8">
             Sign up or log in to access a demo account and trade risk-free using virtual funds. 
             Test strategies, refine your skills, and build confidence, no financial risk involved.
           </p>
