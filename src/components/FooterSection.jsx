@@ -93,7 +93,7 @@ const FooterSection = () => {
                 placeholder="Enter your email" 
                 className="w-full px-3 py-2 text-sm border border-gray-300 rounded-md focus:outline-none focus:ring-1 focus:ring-black placeholder-gray-400"
               />
-              <button type="submit" className="bg-black text-white px-4 py-2 text-sm font-medium rounded-md hover:bg-gray-800 transition-colors shrink-0">
+              <button type="submit" className="bg-[#031b2e] hover:bg-[#062944] text-white/80 px-4 py-2 text-sm font-medium rounded-md  transition-colors shrink-0">
                 Subscribe
               </button>
             </form>

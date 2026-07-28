@@ -14,7 +14,7 @@ export default function DownloadSection() {
           </h1>
           <p className="text-black/80 text-sm md:text-base  leading-relaxed">
 Access your trading account anytime, anywhere. Trade online seamlessly on web, mobile, and desktop platforms, ensuring flexibility and convenience for all traders.          </p>
-          <button className="bg-[#00130d] text-white font-medium px-8 py-3 rounded-full hover:bg-opacity-90 transition-all text-sm">
+          <button className="bg-[#031b2e] hover:bg-[#062944] text-white/80 font-medium px-8 py-3 rounded-full hover:bg-opacity-90 transition-all text-sm">
             Download now
           </button>
         </div>

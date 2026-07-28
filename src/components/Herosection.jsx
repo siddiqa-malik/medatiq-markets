@@ -45,7 +45,7 @@ export const Hero = () => {
 <div className="flex  flex-col sm:flex-row  items-center">
 <button 
               onClick={() => alert("Welcome to your Premier vehicles profile!")}
-              className=" px-9 py-3 text-xl bg-[#001D30] text-white/80 hover:text-white border border-balck/80 rounded-full cursor-pointer"
+              className=" px-9 py-3 text-xl bg-[#031b2e] hover:bg-[#062944] text-white/80 border border-balck/80 rounded-full cursor-pointer"
             >
               Start now
             </button>

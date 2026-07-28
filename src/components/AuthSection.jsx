@@ -90,7 +90,7 @@ const AuthSection = () => {
             Sign up or log in to access a demo account and trade risk-free using virtual funds. 
             Test strategies, refine your skills, and build confidence, no financial risk involved.
           </p>
-          <button className="px-6 py-3 bg-[#0a192f] text-white font-medium text-sm rounded-full hover:bg-black transition-all shadow-sm">
+          <button className="px-6 py-3 bg-[#031b2e] hover:bg-[#062944] text-white/80 font-medium text-sm rounded-full  transition-all shadow-sm">
             Get started
           </button>
         </div>

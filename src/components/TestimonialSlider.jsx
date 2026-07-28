@@ -330,9 +330,7 @@ const TestimonialSlider = () => {
       >
         <button
           className="
-          bg-[#021826]
-          hover:bg-[#06314a]
-          text-white
+          bg-[#031b2e] hover:bg-[#062944] text-white/80
           font-semibold
           px-8
           py-3.5

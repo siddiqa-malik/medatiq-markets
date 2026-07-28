@@ -91,7 +91,7 @@ const Navbar= () => {
             {/* Profile Placeholder Icon */}
             <button 
               onClick={() => alert("Welcome to your Premier vehicles profile!")}
-              className="hidden px-3 py-2 sm:inline-flex bg-[#001D30] text-white/80 hover:text-white border border-balck/80 rounded-full font-medium cursor-pointer whitespace-nowrap"
+              className="hidden px-3 py-2 sm:inline-flex bg-[#031b2e] hover:bg-[#062944] text-white/80 hover:text-white border border-balck/80 rounded-full font-medium cursor-pointer whitespace-nowrap"
             >
               Signup 
             </button>
